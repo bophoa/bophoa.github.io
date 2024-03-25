@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html>
+    
+    <head>
+        <title>Old Version Week 1</title>
+		
+		<!--Link to external CSS -->
+		<link href="css/homework_html.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	
+    <body>
+		<div id="mobileNav">
+          <div class="mobileNavBar">
+              <div id="siteName">
+				  Coding Assignments
+              </div>
+              <div id="hamburgerDiv">
+                  <!--<a href="#" onclick="myDropdownFunction()">&#9776;</a>-->
+                  <button id="hamburgerBtn" onclick="myDropdownFunction()">&#9776;</button>
+              </div>
+
+          </div>
+
+          <div id="theLinks">
+			  <a href="index.html">Homepage</a>
+              <a href="homework_Week1CSS.html">Week 1</a>
+              <a href="homework_html-with_css-2.html">Week 2</a>
+			  <a href="homework_week4.html">Week 4</a>
+          </div>
+		</div>
+		
+        <div>	
+          
+			<h1 style="color:mediumpurple;">Sophia Bejar</h1>
+			
+			<p style="font-size:18px">
+				Hello! I am currently a junior studying Emerging Media. <br> 
+				<br>
+				I love to create art through traditional mediums like drawing and scultping, <br>
+				and digital media from illustrations, 2D animation, and video editing. <br>
+				<br>
+				I'm interested in learning how to code because I want to create a website that archives all of my creative works. <br> 
+				I intend to also make an online portfolio, which will demonstrate my ability to use HTML for future resumes and applications.
+			</p>
+			
+			<div>
+				<h2 style="font-size:17px;color:indigo">
+					This is an illustation of a Data Visualization, using Adobe Photoshop.
+				</h2>
+				
+            	<img src="../01-homework_html/images/datavisualizationadobe.png"
+				width="45%" alt="Data Visualization"> 
+            </div>
+			
+			<div>
+				<h2 style="font-size:17px;color:indigo">
+				Here is one of the short videos I made using Adobe Photoshop and Rotoscoping!
+				</h2>
+			
+				<video 
+					poster="../01-homework_html/images/my-video-poster.jpg"
+					width="55%"
+					controls
+            	> 
+				<source src="../01-homework_html/videos/rotoscopeclown.mp4" type="video/mp4">
+            	</video>
+			
+				<br>
+			
+				<p style="font-size:17px">
+                This is a link to my 
+				<a href="https://www.youtube.com/@archovy.sbejar/featured">
+				Youtube Account
+				</a>
+				for assignments if you want to see more!
+            	</p>
+				
+				<h2 style="font-size:17px;color:deeppink">Coding Assignments</h2>
+				
+				<ul>
+					<li>
+					<a href="homework_Week1CSS.html">
+					Week 1
+					</a>
+					</li>
+					<li>
+					<a href="homework_html-with_css-2.html">
+					Week 2
+					</a>
+					</li>
+				</ul>
+				
+				<a href="index.html">
+					RETURN TO HOME
+				</a>
+				
+			</div>
+				
+		</div>
+	
+		<!-- Line breaks don't need closing tags -->
+        <br>
+		
+    </body>
+
+</html>
+
+<script>
+    function myDropdownFunction() {
+      var linksDiv = document.getElementById("theLinks");
+      if (linksDiv.style.display === "block") {
+        linksDiv.style.display = "none";
+      }
+		else {
+        linksDiv.style.display = "block";
+      }
+    }
+</script>

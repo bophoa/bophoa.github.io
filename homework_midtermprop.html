@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+		<title>Midterm Proposal</title>
+		
+		<!--Link to external CSS -->
+		<link href="css/homework_midtermprop.css" rel="stylesheet" type="text/css">
+		
+    </head>
+	
+    <body>
+		<div id="mobileNav">
+          <div class="mobileNavBar">
+              <div id="siteName">
+				  Coding Assignments
+              </div>
+              <div id="hamburgerDiv">
+                  <!--<a href="#" onclick="myDropdownFunction()">&#9776;</a>-->
+                  <button id="hamburgerBtn" onclick="myDropdownFunction()">&#9776;</button>
+              </div>
+
+          </div>
+
+          <div id="theLinks">
+			  <a href="index.html">Homepage</a>
+              <a href="homework_html.html">old Week 1</a>
+              <a href="homework_Week1CSS.html">Week 1</a>
+			  <a href="homework_week4.html">Week 4</a>
+          </div>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+        
+		<div id="mainDiv">
+            
+			<br>
+			
+			<h1>Midterm Proposal</h1>	
+				
+			<h2>Art Portfolio Website</h2>
+			
+			<a href="https://www.jackiedroujko.com/">Jackie Droujko</a>
+			<p>
+				One of my midterm ideas is like an art portfolio website to<br>
+				showcase all of my artworks, using this artist's online portfolio<br>
+				as inspiration.
+			</p>
+			
+			<h2>Art Commission Website</h2>
+			<a href="https://ko-fi.com/gatekid3/gallery?ref=explore">Kofi</a>
+			<p>
+				My second midterm idea is to make a sort of art commission website<br>
+				where I can list different art commissions I do, like making cards<br>
+				and have all of the steps needed to create it and information needed<br>
+				also to showcase what can be done<br>
+			</p>
+			
+			<p>
+				After taking both of these into account I think I want to do<br>
+				a cross between the art portfolio and the art commission<br>
+				I want to make a site more similar to the art portfolio to showcase art<br>
+				but I want to add a page where it is similar to the commissions page<br>
+				in Kofi to showcase the different commissions I can do<br>
+			</p>
+			
+			<!-- Home Page Link -->
+			<a href="index.html">
+				return to home
+			</a>	
+			
+			<br>
+			<br>
+			
+        </div>
+		
+			<br>
+			<br>
+			<br>
+		
+    </body>
+</html>
+
+<script>
+    function myDropdownFunction() {
+      var linksDiv = document.getElementById("theLinks");
+      if (linksDiv.style.display === "block") {
+        linksDiv.style.display = "none";
+      }
+		else {
+        linksDiv.style.display = "block";
+      }
+    }
+</script>
