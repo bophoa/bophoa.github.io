@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+		<title>Contact Page</title>
+		
+		<!--Link to external CSS -->
+		<link href="css/homework_contactpage.css" rel="stylesheet" type="text/css">
+		
+		<!-- Meta tag to make this a responsive web page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+    </head>
+	
+    <body>
+		<div id="mobileNav">
+          <div class="mobileNavBar">
+              <div id="siteName">
+				  Coding Assignments
+              </div>
+              <div id="hamburgerDiv">
+                  <!--<a href="#" onclick="myDropdownFunction()">&#9776;</a>-->
+                  <button id="hamburgerBtn" onclick="myDropdownFunction()">&#9776;</button>
+              </div>
+
+          </div>
+
+          <div id="theLinks">
+			  <a href="index.html">Homepage</a>
+              <a href="homework_html.html">old Week 1</a>
+              <a href="homework_html-with_css-2.html">Week 2</a>
+			  <a href="homework_week4.html">Week 4</a>
+          </div>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+        
+		<div id="mainDiv">
+            
+			<br>
+			
+			<h1>Contact Page</h1>	
+			
+			<div>
+            <form action="mailto:slcbejar@gmail.com?subject=Inquiry" target="_blank" method="post" enctype="text/plain">
+                <h2>INQUIRY FORM</h2>
+                <p>Please use the form below to send an inquiry</p>
+                <input class="inputFields" type="text" name="name" placeholder="Your name here">
+                <input class="inputFields" type="text" name="phone" placeholder="Phone Number">
+                <input class="inputFields" type="text" name="email" placeholder="Email Address">
+				<br>
+                <textarea class="inputFields" rows="4" name="comments" placeholder="Your comments"></textarea>
+                <br>
+				<div class="phone">
+                <input type="checkbox" name="response1" value="Phone call">
+                <label for="response1">Call me!</label>
+				</div>
+				<br>
+				<div class="email">
+                <input type="checkbox" name="response2" value="Email">
+                <label for="response2">eMail me!</label>
+				</div>
+				<br>
+                <br>
+				<div class="send">
+                <button type="submit">Send</button>
+				</div>
+            </form>
+        	</div>
+			
+			<br>
+			<br>
+			
+			<!-- Home Page Link -->
+			<a href="index.html">
+				return to home
+			</a>	
+			
+			<br>
+			<br>
+			
+        </div>
+		
+			<br>
+			<br>
+			<br>
+		
+    </body>
+</html>
+
+<script>
+    function myDropdownFunction() {
+      var linksDiv = document.getElementById("theLinks");
+      if (linksDiv.style.display === "block") {
+        linksDiv.style.display = "none";
+      }
+		else {
+        linksDiv.style.display = "block";
+      }
+    }
+</script>
