@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: lavender;
+	margin: 0px;
+}
+
+#mobileNav {
+	display: none;
+}
+
+img {
+	width: 70%;
+	margin: auto;
+	display: block;
+}
+
+video {
+	width: 70%;
+}
+	
+a {
+	font-size: 22px;
+	font-family: 'Monaco', monospace;
+	text-align: center;
+	display: block;
+}
+	
+p {
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Monaco', monospace;
+	color: cornflowerblue;
+}
+	
+h1 {
+	text-align: center;
+	font-family: 'Monaco', monospace;
+	background-color: darkslateblue;		
+	font-size: 42px;
+	color: cornflowerblue;
+}
+	
+h2 {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Monaco', monospace;
+	color: cornflowerblue;
+}
+
+#mainDiv {
+	width: 75%;
+	margin: auto;
+	background-color: whitesmoke;
+	border-style: solid;
+	border-width: 10px;
+	border-color: darkslateblue;
+}
+
+div.center {
+	text-align:center;
+}
+
+@media only screen and (max-width: 768px) {
+	#mobileNav 
+	{display: block;}
+	img
+	{width: 70%;}
+	.text {display: none;}
+	body
+	{background-color: lightsteelblue;}
+}
+	
+.mobileNavBar {
+	background-color: darkslateblue;
+	position: relative;
+	border: 0px solid;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#siteName {
+	font-family: 'Monaco', monospace;
+	align-self: center;
+	font-size: 1rem;
+	color: whitesmoke;
+}
+
+#hamburgerDiv {
+        /*background-color: aqua;
+        height: 75%;
+        font-size: 32px;
+        border: 1px solid;*/
+	align-self: center;                
+}
+
+#hamburgerBtn {
+        background-color: white;
+        font-size: 32px;
+        border: 1px solid;
+        border-radius: 4px;
+        cursor: pointer;
+}
+
+#theLinks {
+        background-color: whitesmoke;
+        display: none;
+        text-align: center;
+}
+
+#theLinks a {
+        display: block;
+        text-decoration: none;
+}

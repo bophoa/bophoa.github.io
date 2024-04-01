@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Chewy&family=DynaPuff:wght@400..700&family=Gaegu&display=swap" rel="stylesheet">
+
+		<link href="css/contact_page.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="topnav">
+			<!-- name & major -->
+			<div class="name">
+				<h1>SOPHIA BEJAR</h1>
+			</div>
+			
+			<div class="emerging">
+				<p1>Emerging Media Major</p1>
+			</div>
+			
+			<div class="littleguy">
+				<img src="images/littleguy.gif"
+				alt="little guy dancing">
+			</div>
+
+			<!-- nav bar -->
+			<div class="homepage">
+				<a href="index.html">homepage</a>
+			</div>
+			
+			<div class="portfolio">
+				<a href="portfolio.html">portfolio</a>
+			</div>
+			
+			<div class="contact">
+				<a href="contact_page.html">contact</a>
+			</div>
+			
+			<div class="artcom">
+				<a href="art_commissions.html">commissions</a>
+			</div>
+		</div>
+		
+		<div class="mainBody">
+			<div>
+            <form action="mailto:slcbejar@gmail.com?subject=Inquiry" target="_blank" method="post" enctype="text/plain">
+				<div class="words">
+					<div class="float">
+                	<h2>INQUIRY FORM</h2>
+					</div>
+					<div class="scale">
+                	<p>Please use the form below to send an inquiry</p>
+					</div>
+				</div>
+                <input class="inputFields" type="text" name="name" placeholder="Your name here">
+                <input class="inputFields" type="text" name="phone" placeholder="Phone Number">
+                <input class="inputFields" type="text" name="email" placeholder="Email Address">
+				<br>
+                <textarea class="inputFields" rows="4" name="comments" placeholder="Your comments"></textarea>
+                <br>
+				<div class="phone">
+                <input type="checkbox" name="response1" value="Phone call">
+                <label for="response1">Call me!</label>
+				</div>
+				<br>
+				<div class="email">
+                <input type="checkbox" name="response2" value="Email">
+                <label for="response2">eMail me!</label>
+				</div>
+				<br>
+                <br>
+				<div class="send">
+                <button type="submit">Send</button>
+				</div>
+            </form>
+        	</div>
+		</div>
+	</body>
+</html>
+
+<script>
+    function myDropdownFunction() {
+      var linksDiv = document.getElementById("theLinks");
+      if (linksDiv.style.display === "block") {
+        linksDiv.style.display = "none";
+      }
+		else {
+        linksDiv.style.display = "block";
+      }
+    }
+</script>

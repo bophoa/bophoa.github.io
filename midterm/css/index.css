@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #DEDDF5;
+}
+
+p {
+	font-family: 'Gaegu';font-size: 23px;
+	position: relative;
+	top: -20px;
+	left: 240px;
+}
+
+div.clickme {
+	position: fixed;
+	top: 700px;
+	left: 1350px;
+}
+
+.clickme img {
+	width: 80%;
+}
+
+div.images {
+	text-align: center;
+}
+
+.images img {
+	width: 40%;
+}
+
+div.images2 {
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.images2 img {
+	width: 40%;
+}
+
+div.text2 {
+	position: relative;
+	top: 10px;
+}
+
+/* video CENTER */
+div.video {
+	text-align: center;
+}
+
+/* Sophia Bejar FONT*/
+h1 {
+	font-family: 'Chewy';font-size: 50px;
+}
+
+/* Emerging Media Major FONT*/
+p1 {
+	font-family: 'Gaegu';font-size: 25px;
+}
+
+/* logo left */
+div.name {
+	position: relative;
+	color: #5F61C4;
+	left: 120px;
+}
+
+div.emerging {
+	position: relative;
+	top: -40px;
+	left: 200px;
+}
+div.littleguy {
+	position: absolute;
+	top: 20px;
+	left: 460px;
+}
+
+.littleguy img {
+	width: 25%;
+}
+
+/* NAV BAR */
+
+/* commissions */
+div.homepage {
+	font-family: 'Gaegu';font-size: 25px;
+	position: absolute;
+	top: 65px;
+	left: 750px;
+}
+/* portfolio */
+div.portfolio {
+	font-family: 'Gaegu';font-size: 25px;
+	position: absolute;
+	top: 65px;
+	left: 900px;
+}
+
+/* contact */
+div.contact {
+	font-family: 'Gaegu';font-size: 25px;
+	position: absolute;
+	top: 65px;
+	left: 1030px;
+}
+
+/* commissions */
+div.artcom {
+	font-family: 'Gaegu';font-size: 25px;
+	font-weight: bolder;
+	position: absolute;
+	top: 55px;
+	left: 1150px;
+	/* border */
+	border: 3px solid #5F61C4;
+  	border-radius: 25px;
+  	padding: 8px;
+}
+
+/* make selected page purple */
+.topnav a {
+	text-decoration: none;
+	color: black;
+}
+
+.homepage a {
+	color: #5F61C4;
+}

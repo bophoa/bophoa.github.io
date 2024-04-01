@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: lavender;
+	margin: 0px;
+}
+
+#mobileNav {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	#mobileNav 
+	{display: block;}
+	img
+	{width: 50%;}
+	.text {display: none;}
+	body
+	{background-color: lightsteelblue;}
+	a
+	{font-size: 22px;}
+}
+	
+.mobileNavBar {
+	background-color: darkslateblue;
+	position: relative;
+	border: 0px solid;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#siteName {
+	font-family: 'Monaco', monospace;
+	align-self: center;
+	font-size: 1rem;
+	color: whitesmoke;
+}
+
+#hamburgerDiv {
+        /*background-color: aqua;
+        height: 75%;
+        font-size: 32px;
+        border: 1px solid;*/
+	align-self: center;                
+}
+
+#hamburgerBtn {
+        background-color: white;
+        font-size: 32px;
+        border: 1px solid;
+        border-radius: 4px;
+        cursor: pointer;
+}
+
+#theLinks {
+        background-color: whitesmoke;
+        display: none;
+        text-align: center;
+		font-family: 'Monaco', monospace;
+}
+
+#theLinks a {
+        display: block;
+        text-decoration: none;
+}

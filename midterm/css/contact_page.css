@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #DEDDF5;
+}
+
+.float {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	animation-name: float;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes float {
+	0% {bottom: 0px; top: 0px;}
+    25% {bottom: 0px; top: 10px;}
+    50% {bottom: 0px; top: 0px;}
+    75% {bottom: 0px; top: 10px;}
+    100% {bottom: 0px; top: 0px;}
+}
+
+.scale {
+	animation-name: scale;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+	0% {transform: scale(1.0)}
+	25% {transform: scale(1.1)}
+	50% {transform: scale(1.0)}
+	75% {trasnform: scale(1.1)}
+	100% {transform: scale(1.0)}
+}
+
+/* contact page */
+.inputFields {
+	display: block;
+    margin: auto;
+}
+
+.phone {
+	position: absolute;
+	left: 700px;
+	top: 550px;
+}
+
+.email {
+	position: absolute;
+	left: 700px;
+	top: 570px;
+}
+
+.send {
+	position: absolute;
+	left: 730px;
+	top: 600px;
+}
+
+.words h2 {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	
+}
+
+.words p {
+	text-align: center;
+}
+
+p {
+	font-family: 'Gaegu';font-size: 23px;
+}
+
+h2 {
+	font-family: 'Cherry Bomb One';font-size: 50px;
+	color: #3C337E;
+}
+
+/* video CENTER */
+div.video {
+	text-align: center;
+}
+
+/* Sophia Bejar FONT*/
+h1 {
+	font-family: 'Chewy';font-size: 50px;
+}
+
+/* Emerging Media Major FONT*/
+p1 {
+	font-family: 'Gaegu';font-size: 25px;
+}
+
+/* logo left */
+div.name {
+	position: relative;
+	color: #5F61C4;
+	left: 120px;
+}
+
+div.emerging {
+	position: relative;
+	top: -40px;
+	left: 200px;
+}
+div.littleguy {
+	position: absolute;
+	top: 20px;
+	left: 460px;
+}
+
+.littleguy img {
+	width: 25%;
+}
+
+/* NAV BAR */
+
+/* commissions */
+div.homepage {
+	font-family: 'Gaegu';font-size: 25px;
+	position: absolute;
+	top: 65px;
+	left: 750px;
+}
+/* portfolio */
+div.portfolio {
+	font-family: 'Gaegu';font-size: 25px;
+	position: absolute;
+	top: 65px;
+	left: 900px;
+}
+
+/* contact */
+div.contact {
+	font-family: 'Gaegu';font-size: 25px;
+	position: absolute;
+	top: 65px;
+	left: 1030px;
+}
+
+/* commissions */
+div.artcom {
+	font-family: 'Gaegu';font-size: 25px;
+	font-weight: bolder;
+	position: absolute;
+	top: 55px;
+	left: 1150px;
+	/* border */
+	border: 3px solid #5F61C4;
+  	border-radius: 25px;
+  	padding: 8px;
+}
+
+/* make selected page purple */
+.topnav a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact a {
+	color: #5F61C4;
+}
