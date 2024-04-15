@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+		<title>Javascript</title>
+		
+		<!--Link to external CSS -->
+		<link href="css/homework_javascript.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/homework_javascript.js"></script>
+		
+    </head>
+	
+    <body>
+		<div id="mobileNav">
+          <div class="mobileNavBar">
+              <div id="siteName">
+				  Javascript
+              </div>
+              <div id="hamburgerDiv">
+                  <!--<a href="#" onclick="myDropdownFunction()">&#9776;</a>-->
+                  <button id="hamburgerBtn" onclick="myDropdownFunction()">&#9776;</button>
+              </div>
+
+          </div>
+
+          <div id="theLinks">
+			  <a href="index.html">Homepage</a>
+              <a href="homework_html.html">old Week 1</a>
+              <a href="homework_Week1CSS.html">Week 1</a>
+			  <a href="homework_week4.html">Week 4</a>
+          </div>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+        
+		<div id="mainDiv">
+            
+			<br>
+			
+			<h1>Javascript</h1>	
+			
+			<!-- Bear Image -->
+			<div>
+			<img 
+			src="images/bear.png" 
+			alt="bearimage" 
+			id="bear" 
+			onMouseOver="mouseOverFUNC()" 
+            onMouseDown="mouseDownFUNC()" 
+            onMouseUp="mouseUpFUNC()" 
+            onMouseOut="mouseOutFUNC()">
+			</div>
+			
+			<br>
+			<br>
+			
+			<!-- Home Page Link -->
+			<a href="index.html">
+				return to home
+			</a>	
+			
+			<br>
+			<br>
+			
+        </div>
+		
+			<br>
+			<br>
+			<br>
+		
+    </body>
+</html>
+
+<script>
+    function myDropdownFunction() {
+      var linksDiv = document.getElementById("theLinks");
+      if (linksDiv.style.display === "block") {
+        linksDiv.style.display = "none";
+      }
+		else {
+        linksDiv.style.display = "block";
+      }
+    }
+</script>
