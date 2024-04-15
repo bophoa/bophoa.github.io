@@ -20,6 +20,10 @@ video {
 	width: 70%;
 }
 	
+.alert {
+	display: none;
+}
+
 a {
 	font-size: 22px;
 	font-family: 'Monaco', monospace;
