@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color: lavender;
+	background-color: black;
 	margin: 0px;
 }
 
@@ -32,38 +32,74 @@ a {
 }
 	
 p {
-	font-size: 18px;
+	font-size: 22px;
 	text-align: center;
 	font-family: 'Monaco', monospace;
-	color: cornflowerblue;
+	color: black;
 }
 	
 h1 {
 	text-align: center;
-	font-family: 'Monaco', monospace;
-	background-color: darkslateblue;		
+	font-family: 'Monaco', monospace;		
 	font-size: 42px;
-	color: cornflowerblue;
+	color: black;
 }
 	
 h2 {
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	font-family: 'Monaco', monospace;
-	color: cornflowerblue;
+	color: black;
 }
 
 #mainDiv {
 	width: 75%;
 	margin: auto;
-	background-color: whitesmoke;
+	background-color: white;
 	border-style: solid;
 	border-width: 10px;
-	border-color: darkslateblue;
+	border-color: white;
 }
 
 div.center {
 	text-align:center;
+}
+
+.textRED {
+	position: relative;
+	top: 0px;
+	left: -320px;
+}
+
+.textBLUE {
+	position: absolute;
+	top: 530px;
+	left: 650px;
+}
+
+.textGREEN {
+	position: absolute;
+	top: 530px;
+	left: 980px;
+}
+
+.torchic {
+	position: relative;
+	top: 0px;
+	left: -100px;
+	width: 60%;
+}
+
+.froakie {
+	position: absolute;
+	top: 240px;
+	left: 450px;
+}
+
+.rowlet {
+	position: absolute;
+	top: 240px;
+	left: 800px;
 }
 
 .float {
