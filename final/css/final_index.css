@@ -83,6 +83,15 @@ div.center {
 	left: 980px;
 }
 
+.getName {
+	text-align: center
+}
+
+.printName {
+	position: relative;
+	left: 980px;
+}
+
 .torchic {
 	position: relative;
 	top: 0px;
